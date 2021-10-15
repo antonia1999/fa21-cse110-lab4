@@ -37,22 +37,24 @@ Part 2. A little More of a Challenge...
     ->The functions prints out 150, which is the discountedPrice 
      discountedPrice is also declared with var and therefore lives beyond its original scope
 
-    3.^^^ What will happen at line 14 and why? If the code causes an error, explain why. ^^^
-    ->error occurs: NaN -Not a Number, because finalPrice is not declared as a var, therefore NaN
+    X3.^^^ What will happen at line 14 and why? If the code causes an error, explain why. ^^^
+    -> will return 300
 
-    4.^^^ What will this function return? Give a brief explanation why. If the code causes an error, explain why. ^^^
-    ->the function will return nothing because we do not print anything on the console
+    X4.^^^ What will this function return? Give a brief explanation why. If the code causes an error, explain why. ^^^  list of three elements 
+    ->
 
     5.^^^ What will happen at line 12 and why?  If the code causes an error, explain why. ^^^ (assume this function is being called like the others: discountPrices([100, 200, 300], 0.5)).
-    ->NOTHING respectively. error: Uncaught Reference Error: i is not defined (not in scope)
+    -> error: Uncaught Reference Error: i is not defined (not in scope)
 
     6.^^^ What will happen at line 13 and why? If the code causes an error, explain why. ^^^
     ->error: Uncaught Reference Error: discountedPrice is not defined(not in scope)
 
-    7.^^^ What will happen at line 14 and why? If the code causes an error, explain why. ^^^
+    X7.^^^ What will happen at line 14 and why? If the code causes an error, explain why. ^^^
     -> NaN - Not a number, because final price in not declared as let 
+    150 to console  , I GOT 3000
 
-    8.^^^ What will this function return? Give a brief explanation. If the code causes an error, explain why. ^^^
+    X8.^^^ What will this function return? Give a brief explanation. If the code causes an error, explain why. ^^^
+    ->list of discounted prices 
     -> Nothing because no console
 
     9.^^^ What will happen at line 11 and why? If the code causes an error, explain why. ^^^
@@ -61,5 +63,5 @@ Part 2. A little More of a Challenge...
     10.^^^ What will happen at line 12 and why? If the code causes an error, explain why. ^^^
     -> function returns 3, because we get the length of the prices and we have 3 prices
 
-    11.^^^ What will this function return? Give a brief explanation. If the code causes an error, explain why. ^^^
+    X11.^^^ What will this function return? Give a brief explanation. If the code causes an error, explain why. ^^^ 
     -> nothing no console
